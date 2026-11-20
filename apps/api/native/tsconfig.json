@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "strict": true,
+    "moduleResolution": "node",
+    "module": "CommonJS",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": false
+  },
+  "include": ["."],
+  "exclude": ["node_modules", "bench", "__test__"]
+}
